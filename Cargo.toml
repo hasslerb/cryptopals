@@ -1,0 +1,16 @@
+[package]
+name = "crypto_pals"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "activity1"
+path = "src/set1/activity1.rs"
+
+[[bin]]
+name = "activity2"
+path = "src/set1/activity2.rs"
+
+[dependencies]
